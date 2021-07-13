@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  background: #a370f7;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    color: red;
+    width: 75px;
+    height: 50px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__link {
+    padding: 10px 20px;
+    margin: 0 2px;
+    color: white;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.14);
+    text-decoration: none;
+    transition: 0.3s ease;
+
+    &:hover {
+      color: rgba(0, 0, 0, 1);
+      background: rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 1px black,0 0 3px black;
+    }
+  }
+}

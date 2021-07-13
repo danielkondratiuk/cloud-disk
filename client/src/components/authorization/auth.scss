@@ -1,0 +1,24 @@
+.registration,
+.login {
+  width: 400px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  align-self: center;
+
+  &__title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+  }
+  &__btn {
+    margin: 1rem 0 0 auto;
+    width: 50%;
+  }
+}
